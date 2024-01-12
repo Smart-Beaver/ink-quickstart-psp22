@@ -40,6 +40,10 @@ Options:
 
 ## Build the contract
 
+```bash
+cargo contract build --release
+```
+
 This command will build the following for your contract: a Wasm binary, a metadata file (which contains the contract's ABI) and a .contract file which bundles both. 
 This .contract file can be used to deploy your contract to a chain. If all goes well, you should see a target folder which contains these files:
 
